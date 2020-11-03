@@ -7,6 +7,6 @@ services:
       - ./src:/go/src
     ports:
       - "9090:9090"
-    command: go run /go/src/hello.go
+    command: go run /go/src/serveStatic.go
      
     
