@@ -31,7 +31,9 @@ func randomFromDB() float64 {
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w,strconv.FormatFloat(randomFromDB(), 'f', -1, 64))
+		for i := range []int{1,2,3,4,5} {
+			fmt.Fprintf(w,strconv.FormatFloat(randomFromDB(), 'f', -1, 64))
+		}
 	})
 	http.ListenAndServe(":9090", nil)
 }
