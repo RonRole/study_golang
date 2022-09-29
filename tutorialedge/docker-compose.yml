@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  golang:
+    image: golang
+    volumes:
+      - ./src:/go/src
+    tty: true 
+    
