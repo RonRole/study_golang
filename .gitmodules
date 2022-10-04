@@ -1,0 +1,3 @@
+[submodule "tutorialedge/src/4_GoFunctionsTutorial/go-functions-tutorial"]
+	path = tutorialedge/src/4_GoFunctionsTutorial/go-functions-tutorial
+	url = https://github.com/TutorialEdge/go-functions-tutorial.git
